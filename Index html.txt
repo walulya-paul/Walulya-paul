@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walulya Paul</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      border: 10px solid green;
+      padding: 15px;
+      width: 500px;
+      margin-bottom: 30px;
+    }
+    .profile-header {
+      text-align: center;
+    }
+    .profile-info {
+      display: flex;
+      align-items: center;
+    }
+    .profile-photo {
+      border: 10px solid red;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .profile-links {
+      margin-left: 20px;
+      display: flex;
+      flex-grow: 10;
+      justify-content: space-around;
+    }
+    .schools-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .school-item {
+      border: 10px solid red;
+      padding: 20px;
+      text-align: center;
+    }
+    .work-experience {
+      display: flex;
+      flex-direction: column;
+    }
+    .work-item {
+      margin-top: 5px;
+    }
+    .submit-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h4 class="profile-header">Walulya Paul - BLIS Student at COCIS</h4>
+    <div class="profile-info">
+      <div class="profile-photo">
+        <img src="yoo.jpg" alt="Passport Photo" style="width: 120px; height: 90px;">
+      </div>
+      <div class="profile-links">
+        <span>Schools</span>
+        <span>|</span>
+        <span>Hobbies</span>
+        <span>|</span>
+        <span>Work Experience</span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h3 style="text-align: center;">Schools Attended</h3>
+    <div class="schools-grid">
+      <div class="school-item">2005<br>Mugongo Primary School</div>
+      <div class="school-item">2012<br>Mengo Secondary School (O'level)</div>
+      <div class="school-item">2016<br>MAYa Vocational Institute</div>
+      <div class="school-item">2018<br>Duddo Secondary School (A'level)</div>
+      <div class="school-item">2019<br>Makerere University</div>
+      <div class="school-item">Year...<br>Blablabla...</div>
+    </div>
+  </div>
+  <div class="container">
+    <h3 style="text-align: center;">Work Experience</h3>
+    <div class="work-experience">
+      <div>2020<br>Intern at Mulago Referral Hospital</div>
+      <div class="work-item">2021<br>Volunteer at Makerere COCIS Library in 2023</div>
+      <div class="work-item">2022<br>Project Lead at DEF Project in Mugongo Primary along Kampala Masaka Road</div>
+      <div class="work-item">2023<br>Senior Records Officer</div>
+    </div>
+  </div>
+</body>
+</html>
